@@ -1,7 +1,7 @@
 Ansible Role: Oh My Zsh
 =======================
 
-[![Build Status](https://travis-ci.com/gantsign/ansible-role-oh-my-zsh.svg?branch=master)](https://travis-ci.com/gantsign/ansible-role-oh-my-zsh)
+[![Tests](https://github.com/gantsign/ansible-role-oh-my-zsh/workflows/Tests/badge.svg)](https://github.com/gantsign/ansible-role-oh-my-zsh/actions?query=workflow%3ATests)s
 [![Ansible Galaxy](https://img.shields.io/badge/ansible--galaxy-gantsign.oh--my--zsh-blue.svg)](https://galaxy.ansible.com/gantsign/oh-my-zsh)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/gantsign/ansible-role-oh-my-zsh/master/LICENSE)
 
@@ -15,7 +15,7 @@ and its plugins.
 Requirements
 ------------
 
-* Ansible >= 2.8
+* Ansible >= 2.9
 
 * Linux Distribution
 
@@ -23,29 +23,30 @@ Requirements
 
         * Debian
 
-            * Jessie (8)
             * Stretch (9)
+            * Buster (10)
+            * Bullseye (11)
 
         * Ubuntu
 
-            * Xenial (16.04)
             * Bionic (18.04)
+            * Focal (20.04)
 
     * RedHat Family
 
-        * CentOS
+        * Rocky Linux
 
-            * 7
+            * 8
 
         * Fedora
 
-            * 31
+            * 35
 
     * SUSE Family
 
         * openSUSE
 
-            * 15.1
+            * 15.3
 
     * Note: other versions are likely to work but have not been tested.
 
